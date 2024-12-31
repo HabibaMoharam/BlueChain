@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bluechain Landing Page</title>
+  <link rel="stylesheet" href="ReportsCss.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+
+
+
+  <!-- Header Section -->
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="data/cropped-BlueChain-4-e1734422433277.png" alt="Logo">
+      </div>
+
+      <!-- Hamburger Menu -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- Navigation Menu -->
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </nav>
+
+
+
+
+      <div class="auth-buttons">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="register">Register</a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+
+
+  </div>
+  <!-- TradingView Widget BEGIN -->
+
+   <div class="intro-container">
+  <div class="hello-container">
+    <h1>Hello, <span class="username">Username</span>!</h1>
+    <p>Welcome back to your dashboard.</p>
+  </div>
+
+  <div class="investment-container">
+    <h2>Total Investment</h2>
+    <p class="investment-amount">$1000</p>
+  </div>
+
+  <div class="reports-container">
+    <div class="reports-header">
+      <h2>Reports</h2>
+      <input type="text" class="search-bar" placeholder="Search by title...">
+    </div>
+    <div class="reports-table">
+      <div class="table-row header">
+        <div class="table-cell" data-label="Image">Image</div>
+        <div class="table-cell" data-label="Title">Title</div>
+        <div class="table-cell" data-label="Type">Type</div>
+        <div class="table-cell" data-label="Size">Size</div>
+        <div class="table-cell" data-label="Updated">Updated</div>
+        <div class="table-cell" data-label="Link">Link</div>
+      </div>
+      <div class="table-row" data-title="BlueChain Quarterly Q2 (March) 2024">
+        <div class="table-cell image-cell" data-label="Image">
+          <img src="data/cover.png" alt="Report Cover" class="report-image">
+        </div>
+        <div class="table-cell" data-label="Title">BlueChain Quarterly Q2 (March) 2024</div>
+        <div class="table-cell" data-label="Type">pdf</div>
+        <div class="table-cell" data-label="Size">40 MB</div>
+        <div class="table-cell" data-label="Updated">Dec 12, 2024</div>
+        <div class="table-cell">
+          <button class="download-button">Download</button>
+        </div>
+      </div>
+      <div class="table-row" data-title="Annual Report 2024">
+        <div class="table-cell image-cell" data-label="Image">
+          <img src="annual-report.jpg" alt="Annual Report" class="report-image">
+        </div>
+        <div class="table-cell" data-label="Title">Annual Report 2024</div>
+        <div class="table-cell" data-label="Type">pdf</div>
+        <div class="table-cell" data-label="Size">20 MB</div>
+        <div class="table-cell" data-label="Updated">Jan 01, 2024</div>
+        <div class="table-cell">
+          <button class="download-button">Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="pagination" id="pagination"></div>
+
+
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="data/cropped-BlueChain-4-e1734422433277.png" alt="Logo">
+
+      </div>
+      <div class="footer-links">
+        <h3>QUICK LINKS</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h3>Social Media</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-pinterest"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © 2024 BlueChain</p>
+    </div>
+  </footer>
+
+
+
+  <script src="HomeJS.js"></script>
+  <script src="https://kit.fontawesome.com/db245d0001.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
